@@ -14,48 +14,65 @@
 </head>
 
 <body>
-  <nav class="col-sm-12 d-flex align-items-center justify-content-center" style="background-color: #EDF2F8;">
+  <nav class="col-sm-12 d-flex align-items-center shadow justify-content-center" style="background-color: #EDF2F8;">
     <div class="logo col-sm-4 text-center">
       <img src="./images/2.png" alt="logo" width="200px">
     </div>
     <div class="menu-bar col-sm-8 ml-3">
-      <ul class="nav nav-pills nav-fill gap-2 p-1 small" id="pillNav2 home" role="tablist"
-        style="--bs-nav-link-color: var(--bs-dark); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
-        <li class="nav-item" role="presentation"><b>
-            <a class="nav-link active rounded-1" id="home-tab2" data-bs-toggle="tab" type="button" role="tab"
-              aria-selected="true">Home</a></b>
+      <ul class="nav nav-pills nav-fill gap-2 p-1 small">
+        <li class="nav-item"><b>
+            <a class="nav-link active rounded-1" id="profile-tab2 #about" data-bs-toggle="tab" type="button" role="tab">Home</a></b>
         </li>
-        <li class="nav-item" role="presentation"><b>
-            <a class="nav-link rounded-1" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab"
-              aria-selected="false">About</a></b>
+        <li class="nav-item"><b>
+            <a class="nav-link rounded-1" href="#about" data-bs-toggle="tab" type="button" role="tab">About</a></b>
         </li>
-        <li class="nav-item" role="presentation"><b>
-            <a class="nav-link rounded-1" id="experience-tab2" data-bs-toggle="tab" type="button" role="tab"
-              aria-selected="false">Experience</a></b>
+        <li class="nav-item"><b>
+            <a class="nav-link rounded-1" id="skill-tab2" data-bs-toggle="tab" type="button" role="tab">Skills</a></b>
         </li>
-        <li class="nav-item" role="presentation"><b>
-            <a class="nav-link rounded-1" id="skill-tab2" data-bs-toggle="tab" type="button" role="tab"
-              aria-selected="false">Skills</a></b>
-        </li>
-        <li class="nav-item" role="presentation"><b>
-            <a class="nav-link rounded-1" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab"
-              aria-selected="false">Contact</a></b>
+        <li class="nav-item"><b>
+            <a class="nav-link rounded-1" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab">Contact</a></b>
         </li>
       </ul>
     </div>
   </nav>
-  <div id="#home"  style="background-color: #f0f5fa">
-    <h1>sf</h1>
-    <div class="p-3 border border-light shadow rounded-4 position-absolute bottom-1 start-1 z-index-9 d-none d-xl-block mb-1 ms-5">
-      <div class="d-flex justify-content-between align-items-center">
-        <!-- Icon -->
-        <span class="icon-sm "><h1>👋</h1></span>
-        <!-- Info -->
-        <div class="text-start ms-3">
-          <h6 class="mb-0">Hello I'm </h6>
-          <h3 class="mb-0">SENGHAK</h3>
+  <div id="#home" class="pt-5 pb-5" style="background-color: #f0f5fa">
+    <div class="col-12 d-flex justify-content-center">
+      <div class="p-3 col-sm-2 border border-light shadow rounded-4">
+        <div class="d-flex justify-content-between align-items-center">
+          <!-- Icon -->
+          <span class="icon-sm ">
+            <h1>👋</h1>
+          </span>
+          <!-- Info -->
+          <div class="text-start ms-3">
+            <h6 class="mb-0">Hello I'm </h6>
+            <h3 class="mb-0">SENGHAK</h3>
+          </div>
         </div>
       </div>
+    </div>
+    <div class="mt-5 d-flex justify-content-center align-items-center">
+      <div class="col-sm-3 text-end">
+        <img src="./images/js.png" alt="js">
+      </div>
+      <div class="m-1 col-sm-5 text-center">
+        <img src="./images/01.png" alt="myPhoto">
+      </div>
+      <div class="col-sm-3">
+        <img src="./images/php.png" alt="php">
+      </div>
+    </div>
+    <div class="d-flex justify-content-center mt-5">
+      <img src="./images/html.png" alt="html">
+    </div>
+  </div>
+  <div id="#about" class="mt-3">
+    <div class="content text-center">
+      <h3 class="text-center text-primary mb-4">About Me </h3>
+      <!-- <h4 class="">HONEST | Work hard | Don't give up</h4> -->
+      <h5>I'm Senghak. I'm 19 years old. </h5>
+      <h5>I have learnt HTML, CSS, GitHub, JavaScript, Node js, PHP, OOP, Laravel, Vue js, Bootstrap, Sass. </h5>
+      
     </div>
   </div>
 
