@@ -14,33 +14,30 @@
 </head>
 
 <body>
-  <nav class="col-sm-12 d-flex align-items-center shadow justify-content-center" style="background-color: #EDF2F8;">
-    <div class="logo col-sm-4 text-center">
+  <nav
+    class="col-sm-12 p-1 d-flex align-items-center shadow-sm justify-content-lg-around justify-content-md-between justify-content-xl-betwen bg-dark">
+    <div class="​​​​logo">
       <img src="./images/2.png" alt="logo" width="200px">
     </div>
-    <div class="menu-bar col-sm-8 ml-3">
+    <div class="menu-bar col-lg-4 col-md-6 d-sm-none​​​​​​ ml-3">
       <ul class="nav nav-pills nav-fill gap-2 p-1 small">
         <li class="nav-item"><b>
-            <a class="nav-link active rounded-1" id="profile-tab2 #about" data-bs-toggle="tab" type="button"
-              role="tab">Home</a></b>
+            <a class="nav-link rounded-1 text-dark bg-white " href="#home">Home</a></b>
+          </b>
         </li>
         <li class="nav-item"><b>
-            <a class="nav-link rounded-1" href="#about" data-bs-toggle="tab" type="button" role="tab">About</a></b>
+            <a class="nav-link rounded-1 text-dark bg-white" href="#about" type="button">About</a></b>
         </li>
         <li class="nav-item"><b>
-            <a class="nav-link rounded-1" id="skill-tab2" data-bs-toggle="tab" type="button" role="tab">Skills</a></b>
-        </li>
-        <li class="nav-item"><b>
-            <a class="nav-link rounded-1" id="contact-tab2" data-bs-toggle="tab" type="button"
-              role="tab">Contact</a></b>
+            <a class="nav-link rounded-1 text-dark bg-white" href="#contact" type="button">Contact</a></b>
         </li>
       </ul>
     </div>
   </nav>
-  <div id="#home" class="pt-5 pb-5" style="background-color: #f0f5fa">
+  <div id="home" class="pt-5 pb-5">
     <div class="col-12 d-flex justify-content-center">
-      <div class="p-3 col-sm-2 border border-light shadow rounded-4">
-        <div class="d-flex justify-content-between align-items-center">
+      <div class="p-3 col-sm-2 col-lg-3 border-light shadow rounded-4">
+        <div class="d-flex justify-content-lg-around">
           <!-- Icon -->
           <span class="icon-sm ">
             <h1>👋</h1>
@@ -54,52 +51,111 @@
       </div>
     </div>
     <div class="mt-5 d-flex justify-content-center align-items-center">
-      <div class="col-sm-3 text-end">
-        <img src="./images/js.png" alt="js">
+      <div class="col-lg-4 d-flex flex-column align-items-end gap-2">
+        <img src="./images/node.png" alt="js" width="130px">
+        <img src="./images/js.png" alt="js" width="130px">
       </div>
-      <div class="m-1 col-sm-5 text-center">
-        <img src="./images/01.png" alt="myPhoto">
+      <div class="mr-2 col-lg-4 text-center">
+        <img src="./images/01.png" alt="myPhoto" width="350px">
       </div>
-      <div class="col-sm-3">
+      <div class="col-lg-4 d-flex flex-column align-items-start gap-2 ">
         <img src="./images/php.png" alt="php">
+        <img src="./images/html.png" alt="html">
       </div>
     </div>
     <div class="d-flex justify-content-center mt-5">
-      <img src="./images/html.png" alt="html">
     </div>
   </div>
-  <div id="#about" class="mt-5 ">
-    <div class="d-flex justify-content-sm-around justify-content-md-around gap-5 justify-content-xl-center flex-wrap">
-      <div class="card shadow-sm bg-light border-light" style="width: 18rem;">
+  <div id="about" class="p-4 bg-dark">
+    <div class="container ml-3">
+      <h5 class="text-white text-center mb-3">About Me</h5>
+      <p class="text-white text-center">My name is Senghak. I'm from Kompong Thom Province. I am interesting with
+        technoloy and It bring me to study on technoloy. Currently, I live in Phnom Penh. I have learnt Computer Science
+        that focus on Web Development Skill. I have learnt some Programming Languages and framework. </p>
+    </div>
+    <div class="d-flex mt-5 mb-4 flex-wrap justify-content-md-around gap-5 justify-content-xl-center ">
+      <div class="card bg-light border-light" style="width: 18rem;">
         <img src="./images/web_design.png" class="card-img-top" alt="web design">
-        <div class="card-body">
-          <h5 class="card-title text-primary">Web Designer</h5>
+        <div class="card-body d-flex flex-column justify-content-between">
+          <h5 class="card-title text-center text-info">Web Designer</h5>
           <p class="card-text">I am a Web Designer. I have some skills in Html, CSS, and bootstrap. I am interesting
             to make good looking with flexible situation.</p>
-          <a href="https://freebookstore.online/" target="_blank" type="button" class="text-decoration-none"><button
-              class="btn btn-primary">View project</button></a>
+          <div class="text-center">
+            <a href="https://freebookstore.online/" target="_blank" type="button" class="text-decoration-none"><button
+                class="btn btn-info">View project</button></a>
+          </div>
         </div>
       </div>
       <div class="card shadow-sm bg-light border-light" style="width: 18rem;">
         <img src="./images/front_end.png" class="card-img-top" alt="web design">
-        <div class="card-body">
-          <h5 class="card-title text-primary">Front End Developer</h5>
+        <div class="card-body d-flex flex-column justify-content-between">
+          <h5 class="card-title text-center text-info">Front End Developer</h5>
           <p class="card-text">I am a Front End Developer. I have some skills in Html, CSS, and JavaScript</p>
-          <a href="https://wa-g3-project-js.vercel.app/" target="_blank"><button class="btn btn-primary">View
-              project</button></a>
+          <div class="text-center">
+            <a href="https://wa-g3-project-js.vercel.app/" target="_blank"><button class="btn btn-info">View
+                project</button></a>
+          </div>
         </div>
       </div>
       <div class="card shadow-sm bg-light border-light" style="width: 18rem;">
         <img src="./images/back_end.png" class="card-img-top" alt="web design">
-        <div class="card-body">
-          <h5 class="card-title text-primary">Back End Developer</h5>
+        <div class="card-body d-flex flex-column justify-content-between">
+          <h5 class="card-title text-center text-info">Back End Developer</h5>
           <p class="card-text">I am a Back End Developer. I have some skills with Node js, Database to manage data.
             Especailly I have skill with PHP.</p>
-          <a href="https://github.com/rithsreynang/G4-Googleclassroom" target="_blank" type="button" class="text-decoration-none"><button
-              class="btn btn-primary">View project</button></a>
+          <div class="text-center">
+            <a href="https://github.com/rithsreynang/G4-Googleclassroom" target="_blank" type="button"
+              class="text-decoration-none"><button class="btn btn-info">View project</button></a>
+          </div>
         </div>
       </div>
     </div>
+  </div>
+  <div id="contact" class="p-5  d-flex flex-column align-items-center ">
+    <h4 class="text-center text-info mb-3">Contact </h4>
+    <div class="card p-3 rounded-2 col-md-8 col-xs-6 col-sm-10 col-xs-6 ​">
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Name</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Description</label>
+          <input type="text" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-info">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="​ bg-dark p-4 text-center gap-2">
+    <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" class="text-info"
+      target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+        class="bi bi-linkedin" viewBox="0 0 20 20">
+        <path
+          d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+      </svg></a>
+    <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="text-info"
+        class="bi bi-facebook" viewBox="0 0 20 20">
+        <path
+          d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+      </svg></a>
+    <a href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=senghak.chhun@student.passerellesnumeriques.org&tf=1"><svg
+        xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="text-info"
+        class="bi bi-envelope" viewBox="0 0 20 20">
+        <path
+          d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+      </svg></a>
+    <a href="https://t.me/SengHak_Chhun_IT" target="_blank" class="text-info"><svg xmlns="http://www.w3.org/2000/svg"
+        width="35" height="35" fill="currentColor" class="bi bi-telegram" viewBox="0 0 20 20">
+        <path
+          d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09" />
+      </svg></a>
   </div>
   </div>
 
